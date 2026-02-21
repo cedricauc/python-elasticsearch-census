@@ -19,7 +19,7 @@ Follow these steps to set up your local environment and install the necessary de
 
 Open your terminal or command prompt and navigate to the project folder.
 ```shell
-cd path/to/your/folder/us-census-mcp
+cd path/to/your/folder/python-elasticsearch-census
 ```
 
 ### 2. Initialize the Python Project
