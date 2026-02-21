@@ -32,16 +32,13 @@ INDEX_MAPPING = {
             "state": {"type": "keyword"}, # FIPS code
             "dataset": { "type": "keyword" }, # Dataset (sf1, acs)
             "year": {"type": "keyword"}, # Census year (e.g., "2010") 
-
             "P001001": {"type": "integer"}, # Total population
             "P013001": {"type": "float"}, # Median age
             "P037001": {"type": "float"}, # Average family size          
             "PCT021005": {"type": "integer"}, # Correctional facilities for Male adults
-
             "B25077_001E": {"type": "long"}, # Median home value 
             "B19025_001E": {"type": "long"}, # Mean household income (average) 
             "B05002_013E": {"type": "long"}, # Foreign-born population (immigrant)
-
             "geometry": { "type": "geo_shape" } # Polygon boundaries
         }
     },
@@ -220,7 +217,7 @@ def ingest_data(client: Elasticsearch, year: str = "2010"):
         print(f"An error occurred during file reading or ingestion: {e}")
         return
     
-    # 4. Refresh and print the final document count.
+    # 5. Refresh and print the final document count.
     client.indices.refresh(index=ES_INDEX)
     count = client.count(index=ES_INDEX)['count']
     print(f"Final check: The index '{ES_INDEX}' now contains {count} documents.")
