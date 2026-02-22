@@ -68,7 +68,7 @@ With the environment set up, you can now run the solution.
 
 ### 1. Ingest the Sample Data
 
-First, run the provided script to populate your Elasticsearch instance with the sample data. This script will create the index with the correct mapping and insert the 30 sample documents.
+First, run the provided script to populate your Elasticsearch instance with the sample data. This script will create the index with the correct mapping and insert the 51 sample documents.
 ```shell
 python ingest_data.py
 ```
