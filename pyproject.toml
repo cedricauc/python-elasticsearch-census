@@ -10,4 +10,10 @@ dependencies = [
     "mcp[cli]>=1.26.0",
     "pydantic>=2.12.5",
     "requests>=2.32.5",
+    # --- GeoPandas + spatial stack --- 
+    "geopandas>=1.0.0", 
+    "shapely>=2.0.0", 
+    "pyproj>=3.6.0", 
+    "fiona>=1.9.0", 
+    "rtree>=1.2.0",
 ]
