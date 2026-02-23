@@ -1,6 +1,6 @@
 # MCP Server for Analyzing US Census Data with Elasticsearch
 
-Welcome! This repository contains the source code for the building an MCP Server with Elasticsearch for Population Census Data".
+Welcome! This repository contains the source code for the building an MCP Server with Elasticsearch for analysing US census data.
 
 This project provides a runnable implementation of a custom Model Context Protocol (MCP) server. Built with Python and the FastMCP framework, this server connects to an Elasticsearch index containing sample US population data.
 ## Prerequisites
