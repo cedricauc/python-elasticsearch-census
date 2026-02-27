@@ -55,7 +55,7 @@ Install the necessary Python packages.
 After creating the API key in Elasticsearch, you need to configure it in your environment:
 
 ```bash
-# Export the API key and Cloud idd for the current session
+# Export the API key and Cloud id for the current session
 export ES_API_KEY="your_encoded_api_key_here"
 export ES_CLOUD_ID="your_encoded_cloud_id_here"
 
