@@ -23,7 +23,6 @@ ES_API_KEY = os.getenv('ES_API_KEY')
 ES_CLOUD_ID = os.getenv('ES_CLOUD_ID')
 
 # --- Index Mapping ---
-# This mapping is taken directly from the article to ensure consistency.
 INDEX_MAPPING = {
     "mappings": {
         "properties": {
